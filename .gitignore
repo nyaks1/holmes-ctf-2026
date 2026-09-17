@@ -1,0 +1,23 @@
+# Ignore challenge binaries and unpacked malware — analysis notes stay.
+*.zip
+*.7z
+*.exe
+*.dll
+*.asar
+
+# Unpacked / derived malware trees
+SilentDividend/extracted/
+SilentDividend/nsis/
+SilentDividend/asar/
+SilentDividend/pdf_carved/
+SilentDividend/chain/
+SilentDividend/tools/
+tools/7zextra/
+tools/*.exe
+
+# Scratch
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+node_modules/
