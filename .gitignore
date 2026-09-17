@@ -4,6 +4,11 @@
 *.exe
 *.dll
 *.asar
+*.ovpn
+*.key
+*.pem
+*.p12
+*.pfx
 
 # Unpacked / derived malware trees
 SilentDividend/extracted/
@@ -12,6 +17,8 @@ SilentDividend/asar/
 SilentDividend/pdf_carved/
 SilentDividend/chain/
 SilentDividend/tools/
+BottleOut/pdf_carved/
+BottleOut/challenge-75959.zip
 tools/7zextra/
 tools/*.exe
 
